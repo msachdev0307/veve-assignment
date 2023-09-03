@@ -1,0 +1,16 @@
+.cardContainer {
+  display: flex;
+  color: #333;
+  margin: 0.5rem;
+  overflow-x: auto;
+  position: relative;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+@media screen and (max-width: 625px) {
+  .cardContainer {
+    padding: 0.5rem;
+  }
+}

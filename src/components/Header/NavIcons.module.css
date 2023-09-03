@@ -1,0 +1,61 @@
+.NavIcon {
+  height: 24px;
+  width: 24px;
+}
+.NavIcons {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  gap: 0.8rem;
+  display: flex;
+}
+.navButton {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  appearance: none;
+  text-align: center;
+  text-decoration: none;
+  border: 0px;
+  color: var(--theme-ui-colors-white);
+  display: flex;
+  cursor: pointer;
+  -webkit-box-align: center;
+  align-items: center;
+  background: rgb(66, 66, 66);
+  backdrop-filter: blur(32px);
+  line-height: 1;
+  gap: 0.8rem;
+  transition: opacity 0.2s ease-in-out 0s;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 40px;
+  width: 40px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.navButton:hover {
+  opacity: 0.5;
+}
+@media screen and (max-width: 600px) {
+  .NavIcon {
+    height: 18px;
+    width: 18px;
+  }
+  .navButton {
+    width: 30px;
+    height: 30px;
+  }
+  .searchBar {
+    position: fixed;
+    height: 30px;
+    top: 46px;
+    width: 40%;
+    right: 0px;
+    background-color: black;
+    color: white;
+    border-color: white;
+  }
+}

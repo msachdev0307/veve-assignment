@@ -1,0 +1,66 @@
+.card {
+  flex: 1 0 calc(20% - 16px);
+  background: #fff;
+  margin: 0.5rem;
+  overflow: hidden;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+  max-width: calc(20% - 16px);
+
+  &:hover {
+    box-shadow: 0 4px 1rem -4px #000;
+    transform: translateY(-3px);
+  }
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  max-height: 250px;
+  object-fit: center;
+}
+.price {
+  float: right;
+}
+.cardName {
+  padding: 0.4rem;
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color: var(--theme-ui-colors-dark);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  font: "Roboto Condensed", system-ui, sans-serif;
+}
+.cardDetails {
+  background-color: lightgray;
+  padding: 0.4rem;
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  color: var(--theme-ui-colors-grey-dark);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+@media screen and (max-width: 625px) {
+  .card {
+    margin: 0.5rem;
+    flex: 1 0 calc(50% - 16px);
+    max-width: calc(50% - 16px);
+  }
+  .cardName {
+    font-size: 12px;
+  }
+}

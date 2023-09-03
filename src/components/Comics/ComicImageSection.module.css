@@ -1,0 +1,182 @@
+.comicContainer {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  position: absolute;
+  inset: 0rem;
+  user-select: none;
+  object-fit: cover;
+  filter: blur(88px);
+  background-image: url(https://d11unjture0ske.cloudfront.net/comic_cover.ce0f8a92-7e59-4157-8a1b-f512b5286a2e.155387d6-ac55-421f-ab87-728d42a055d5.webpFull.webp);
+  background-position: center center;
+  background-size: cover;
+}
+.comicImage {
+  width: 20%;
+}
+.header {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  position: relative;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 65vh;
+  max-height: 66rem;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(rgba(19, 19, 19, 0) 58.86%, rgb(18, 18, 18) 100%),
+    radial-gradient(
+      44.53% 51.44% at 50% 54.31%,
+      rgb(101, 105, 109) 0.06%,
+      rgb(16, 16, 16) 100%
+    ),
+    rgb(16, 16, 16);
+}
+.navButtons {
+  box-sizing: border-box;
+  margin: 0px auto;
+  min-width: 0px;
+  width: 100%;
+  max-width: 1312px;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  display: flex;
+  position: absolute;
+  top: 2.4rem;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.button {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  appearance: none;
+  text-align: center;
+  text-decoration: none;
+  border: 0px;
+  color: var(--theme-ui-colors-white);
+  padding: 0.5rem;
+  display: flex;
+  cursor: pointer;
+  -webkit-box-align: center;
+  align-items: center;
+  background: rgb(66, 66, 66);
+  backdrop-filter: blur(32px);
+  line-height: 0.5;
+  gap: 0.8rem;
+  transition: opacity 0.2s ease-in-out 0s;
+  font-size: 1rem;
+  font-weight: 700;
+  height: auto;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.button:hover,
+.previewComic:hover,
+.btnWide:hover {
+  opacity: 0.5;
+}
+.previewLinkText {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  font-size: 1rem;
+  line-height: 2.4rem;
+  font-weight: 700;
+}
+.previewComic {
+  color: var(--theme-ui-colors-white);
+  padding: 0.2rem 1rem;
+  display: flex;
+  cursor: pointer;
+  -webkit-box-align: center;
+  align-items: center;
+  background: rgb(66, 66, 66);
+  backdrop-filter: blur(32px);
+  gap: 0.8rem;
+  transition: opacity 0.2s ease-in-out 0s;
+  font-size: 1.2rem;
+  font-weight: 700;
+  height: auto;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  line-height: 1rem;
+}
+.previewComic img {
+  width: 24px;
+}
+.bottomLinks {
+  box-sizing: border-box;
+  margin: 0px auto;
+  min-width: 0px;
+  width: 100%;
+  max-width: 1312px;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  position: absolute;
+  bottom: 2.4rem;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.links {
+  float: right;
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  gap: 0.8rem;
+  display: flex;
+}
+.button img {
+  width: 24px;
+}
+.btnWide {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  appearance: none;
+  text-align: center;
+  text-decoration: none;
+  border: 0px;
+  color: var(--theme-ui-colors-white);
+  display: flex;
+  cursor: pointer;
+  -webkit-box-align: center;
+  align-items: center;
+  background: rgb(66, 66, 66);
+  backdrop-filter: blur(32px);
+  line-height: 1;
+  gap: 0.8rem;
+  transition: opacity 0.2s ease-in-out 0s;
+  font-size: 1.6rem;
+  font-weight: 700;
+  height: auto;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+  padding: 0.8rem;
+}
+
+.btnLabel {
+  font-size: 1rem;
+}
+.btnWide img {
+  width: 24px;
+}
+.active {
+  filter: invert(23%) sepia(81%) saturate(6661%) hue-rotate(355deg)
+    brightness(107%) contrast(127%);
+}

@@ -1,0 +1,39 @@
+.header {
+  box-sizing: border-box;
+  margin: 0px auto;
+  min-width: 0px;
+  width: 90%;
+  max-width: 1312px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+.logo {
+  width: 96px;
+  height: 24px;
+  cursor: pointer;
+}
+.headerWrapper {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  position: sticky;
+  top: 0rem;
+  background-color: black;
+  z-index: 555555;
+}
+.headerItems {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    width: 100%;
+  }
+}
