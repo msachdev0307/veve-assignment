@@ -24,7 +24,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Technical Choices:
+### Technical Choices:
 
 I created this app using npm create-react-app as:
 
@@ -34,7 +34,7 @@ It provides support for importing assests in a convenient way.
 
 It is a pretty straight forward application with just 2 screens and I wanted the application to be based purely on react js instead of using any related framework.
 
-Architectural choices :
+### Architectural choices :
 
 I have tried and use minimal dependencies for the project
 
@@ -50,7 +50,7 @@ I have used module css approach to keep styling scoped to particular components 
 
 I have created 2 api files for comics and brands in the api folder which are using the json provided as a part of this exercise as a response and fetching results from those to render the application.
 
-Improvements :
+### Improvements :
 
 I havent used any store context in the application to store the data for brands and comics which can be implemented in case this was actually fetching data from backend but since I was provided with json files with data I have directly performed operations over those.
 
@@ -62,7 +62,7 @@ Could have implemented memoizing for more static components as of now it is used
 
 Could have implemented lazy loading as there are 10 comics on home screen and a few data could have been loaded lazily but since there were only 2 screens I havent implemented lazy loading
 
-Plans if I had more than 8 hours to develop the application:
+### Plans if I had more than 8 hours to develop the application:
 
 Implementing store context for storing comics and brand data as it is being used in different pages and filter functions are making additional calls to fetch the data again and again
 
@@ -74,7 +74,7 @@ Implemented lazy loading to further improve app performance.
 
 Added a few additional functionalities for components that are right now not doing anything such as save comic etc.
 
-Considerations id this was a production app
+### Considerations id this was a production app
 
 Using minimal dependencies, the ones that are necessary for the app to run only.
 
