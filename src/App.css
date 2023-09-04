@@ -47,96 +47,6 @@ body {
   min-height: 100%;
   min-width: 100%;
 }
-
-/* .container {
-  width: 90%;
-  margin: auto;
-  max-width: 1312px;
-} */
-
-/* .card {
-  flex: 1 0 calc(20% - 16px);
-  background: #fff;
-  margin: 0.5rem;
-  overflow: hidden;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: all 250ms ease-in-out;
-  max-width: calc(20% - 16px);
-
-  &:hover {
-    box-shadow: 0 4px 1rem -4px #000;
-    transform: translateY(-3px);
-  }
-}
-
-.card img {
-  width: 100%;
-  height: 100%;
-  max-height: 250px;
-  object-fit: center;
-} */
-/* .price {
-  float: right;
-}
-.cardName {
-  padding: 0.4rem;
-  box-sizing: border-box;
-  margin: 0px;
-  min-width: 0px;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 2.4rem;
-  color: var(--theme-ui-colors-dark);
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  width: 100%;
-}
-.cardDetails {
-  background-color: lightgray;
-  padding: 0.4rem;
-  box-sizing: border-box;
-  margin: 0px;
-  min-width: 0px;
-  display: flex;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  align-items: center;
-  color: var(--theme-ui-colors-grey-dark);
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 2rem;
-} */
-/* @media screen and (max-width: 625px) {
-  .container {
-    width: 100%;
-  } */
-
-/* .cards-container {
-    padding: 0.5rem;
-  } */
-
-/* .card {
-    margin: 0.5rem;
-    flex: 1 0 calc(50% - 16px);
-  } */
-/* } */
-
-/* .sliderHeader {
-  box-sizing: border-box;
-  min-width: 0px;
-  display: flex;
-  width: 100%;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  align-items: center;
-  padding: 1rem;
-  font-size: 1.2rem;
-} */
-
 .navIcon {
   height: 24px;
   width: 24px;
@@ -188,25 +98,10 @@ button:disabled {
 button:disabled:hover {
   opacity: 0.3;
 }
-/* .cardName {
-  font-size: 16px;
-} */
 .message {
   text-align: center;
   margin-bottom: 15px;
 }
-/* .footerNavigationMenu {
-  display: none;
-} */
-/* @media screen and (max-width: 600px) {
-  .card {
-    flex: 1 0 calc(50% - 16px);
-    max-width: calc(50% - 16px);
-  }
-  .footerNavigationMenu {
-    display: block !important;
-  }
-} */
 .link {
   font-size: 12px;
   font-weight: 700;
@@ -214,9 +109,6 @@ button:disabled:hover {
   color: #10cef2;
   text-decoration: none;
 }
-
-@import "https://fonts.googleapis.com/css?family=Roboto";
-
 .sidePanel {
   font-family: "Roboto", sans-serif;
   position: fixed;
@@ -231,34 +123,9 @@ button:disabled:hover {
   overflow: hidden;
   transition: width 0.6s;
 }
-
 .activeSidePanel .sidePanel {
   width: 300px;
 }
-
-/* .NotificationPanel li {
-  width: 300px;
-}
-
-.NotificationPanel li span {
-  font-size: 1rem;
-  margin: 20px 30px 0 22px;
-}
-
-.NotificationPanel li a {
-  display: block;
-  font-size: 0.9rem;
-  text-decoration: none;
-  color: #333;
-  height: 60px;
-}
-
-.NotificationPanel li a:hover,
-.NotificationPanel li:first-child a {
-  background: #14081d;
-  color: white;
-  display: block;
-} */
 .closeButton {
   color: white;
   background-color: rgb(66, 66, 66);

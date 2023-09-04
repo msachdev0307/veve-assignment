@@ -31,7 +31,7 @@
   font-size: 16px;
   font-weight: 700;
   line-height: 2.4rem;
-  color: var(--theme-ui-colors-dark);
+  color: #2e2e2e;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
@@ -49,7 +49,7 @@
   justify-content: space-between;
   -webkit-box-align: center;
   align-items: center;
-  color: var(--theme-ui-colors-grey-dark);
+  color: #424242;
   font-size: 1rem;
   font-weight: 700;
   line-height: 2rem;

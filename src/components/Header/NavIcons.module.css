@@ -17,7 +17,7 @@
   text-align: center;
   text-decoration: none;
   border: 0px;
-  color: var(--theme-ui-colors-white);
+  color: white;
   display: flex;
   cursor: pointer;
   -webkit-box-align: center;

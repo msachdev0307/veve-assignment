@@ -63,7 +63,7 @@
   text-align: center;
   text-decoration: none;
   border: 0px;
-  color: var(--theme-ui-colors-white);
+  color: white;
   padding: 0.5rem;
   display: flex;
   cursor: pointer;
@@ -96,7 +96,7 @@
   font-weight: 700;
 }
 .previewComic {
-  color: var(--theme-ui-colors-white);
+  color: white;
   padding: 0.2rem 1rem;
   display: flex;
   cursor: pointer;
@@ -150,7 +150,7 @@
   text-align: center;
   text-decoration: none;
   border: 0px;
-  color: var(--theme-ui-colors-white);
+  color: white;
   display: flex;
   cursor: pointer;
   -webkit-box-align: center;
