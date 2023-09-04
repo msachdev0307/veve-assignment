@@ -30,7 +30,7 @@ const Slider = (props) => {
         <span className="sliderHeading">{props.title}</span>
         {props.data.length > cardsInFrame && (
           <div className="navIcons">
-            <NavLink className="link" to={`/${props.title}`}>
+            <NavLink className="link" to={`/${props.title.toLowerCase()}`}>
               See All
             </NavLink>
             <button
